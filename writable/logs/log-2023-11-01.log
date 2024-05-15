@@ -1,0 +1,68 @@
+CRITICAL - 2023-11-01 03:26:45 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-11-01 03:26:45 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-11-01 03:26:45 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-11-01 03:26:46 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-11-01 03:26:46 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-11-01 03:48:36 --> Attempt to read property "pesan" on null
+in APPPATH\Controllers\Customer.php on line 80.
+ 1 APPPATH\Controllers\Customer.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pesan" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Customer.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->storependaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')

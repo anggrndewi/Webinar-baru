@@ -1,0 +1,433 @@
+CRITICAL - 2023-07-11 02:38:21 --> Invalid file: "Home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(11): view('Home')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 02:38:36 --> Invalid file: "Home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(11): view('Home')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 02:39:33 --> Invalid file: "Home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(11): view('Home')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 02:39:56 --> Invalid file: "Home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(11): view('Home')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 02:39:57 --> Invalid file: "Home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(11): view('Home')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-11 07:33:29 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 35.
+ 1 APPPATH\Controllers\Sertifikat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 08:44:38 --> Invalid file: "deskripsi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsi.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(42): view('deskripsi')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->hasil()
+=======
+CRITICAL - 2023-07-11 07:48:33 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:51:09 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:53:16 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:53:31 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:53:33 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:54:26 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:55:50 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:56:56 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+>>>>>>> 5723cfb8d0d73a52965c3c0125ba95eb3c4a124b
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-11 08:44:43 --> Invalid file: "deskripsi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsi.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(42): view('deskripsi')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->hasil()
+=======
+CRITICAL - 2023-07-11 07:56:57 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:57:32 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:57:33 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:59:29 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 07:59:31 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 08:00:04 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-11 08:13:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#3 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+#4 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-11 08:13:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Sertifikat.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM webinar')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-11 08:14:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#4 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-11 08:14:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Sertifikat.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pendaftaran')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 08:16:07 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 08:21:11 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 08:23:08 --> Invalid file: "deskripsiwebinar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deskripsiwebinar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsiwebinar', [], true)
+ 3 APPPATH\Controllers\Sertifikat.php(16): view('deskripsiwebinar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->home('$1')
+>>>>>>> 5723cfb8d0d73a52965c3c0125ba95eb3c4a124b
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:20:36 --> Class "App\Models\presensimodel" not found
+in APPPATH\Controllers\Sertifikat.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:32:24 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\Sertifikat.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:32:49 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\Sertifikat.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:34:14 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\Sertifikat.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:35:57 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\Sertifikat.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:38:06 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\Sertifikat.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:38:27 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\Sertifikat.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:40:31 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\Sertifikat.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->storepresensi()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+INFO - 2023-07-11 09:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+<<<<<<< HEAD
+CRITICAL - 2023-07-11 09:49:14 --> syntax error, unexpected token "<<", expecting end of file
+=======
+CRITICAL - 2023-07-11 09:49:35 --> syntax error, unexpected token "<<", expecting end of file
+>>>>>>> e0892adc58246a14f1d543bbf314cbd7bb5dcc50
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-11 09:49:27 --> syntax error, unexpected token "<<", expecting end of file
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:49:57 --> syntax error, unexpected token "<<", expecting end of file
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:51:56 --> syntax error, unexpected token "<<", expecting "function" or "const"
+in APPPATH\Controllers\Sertifikat.php on line 45.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Sertifikat')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Sertifikat')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Sertifikat', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-11 09:51:57 --> syntax error, unexpected token "<<", expecting "function" or "const"
+in APPPATH\Controllers\Sertifikat.php on line 45.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Sertifikat')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Sertifikat')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Sertifikat', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+=======
+>>>>>>> e0892adc58246a14f1d543bbf314cbd7bb5dcc50

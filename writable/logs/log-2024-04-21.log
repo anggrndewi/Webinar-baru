@@ -1,0 +1,56 @@
+CRITICAL - 2024-04-21 09:10:32 --> Undefined array key 0
+in APPPATH\Views\user\deskripsi.php on line 6.
+ 1 APPPATH\Views\user\deskripsi.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(33): view('user/deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2024-04-21 09:10:56 --> Undefined array key 0
+in APPPATH\Views\user\deskripsi.php on line 6.
+ 1 APPPATH\Views\user\deskripsi.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(33): view('user/deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2024-04-21 09:12:17 --> Undefined array key 0
+in APPPATH\Views\user\deskripsi.php on line 6.
+ 1 APPPATH\Views\user\deskripsi.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(33): view('user/deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2024-04-21 09:20:14 --> Undefined array key 0
+in APPPATH\Views\user\deskripsi.php on line 6.
+ 1 APPPATH\Views\user\deskripsi.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\user\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(33): view('user/deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2024-04-21 22:03:16 --> Attempt to read property "judul" on null
+in APPPATH\Controllers\Customer.php on line 190.
+ 1 APPPATH\Controllers\Customer.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Customer.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->storepresensi()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')

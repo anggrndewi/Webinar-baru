@@ -1,0 +1,1243 @@
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:23:09 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 03:38:42 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:23:09 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 03:38:42 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 02:23:09 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:23:10 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 03:38:42 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 03:38:43 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:23:25 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 03:38:43 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:26:31 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 03:38:56 --> Attempt to read property "pesan" on null
+in APPPATH\Controllers\Customer.php on line 77.
+ 1 APPPATH\Controllers\Customer.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pesan" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Customer.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->storependaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 03:39:34 --> Class "App\Controllers\Client" not found
+in APPPATH\Controllers\whatsapp.php on line 11.
+ 1 APPPATH\Controllers\Customer.php(83): App\Controllers\whatsapp->send('085342963020', 'adaB<br><br>Link Webinar = zooB<br><br>Link Presensi = adaB')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->storependaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:04:12 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:26:31 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 04:04:12 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:26:31 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 04:04:12 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:26:31 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 04:04:12 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:26:32 --> Undefined array key 0
+=======
+CRITICAL - 2023-07-18 04:04:12 --> Undefined array key 0
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+<<<<<<< HEAD
+ 5 APPPATH\Controllers\Customer.php(31): view('deskripsi')
+=======
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-07-18 02:38:27 --> Unclosed '{' on line 42
+in APPPATH\Views\dashboard.php on line 107.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(32): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 02:39:06 --> Array to string conversion
+in APPPATH\Views\dashboard.php on line 46.
+ 1 APPPATH\Views\dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\dashboard.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(32): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 02:39:20 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\dashboard.php on line 46.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH\Controllers\Admin.php(32): view('dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 02:46:53 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, CodeIgniter\Database\MySQLi\Connection given
+in APPPATH\Views\dashboard.php on line 42.
+ 1 APPPATH\Views\dashboard.php(42): mysqli_query(Object(CodeIgniter\Database\MySQLi\Connection), Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(32): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+=======
+CRITICAL - 2023-07-18 04:10:02 --> Too few arguments to function App\Controllers\whatsapp::send(), 0 passed in D:\xampp\htdocs\Webinar\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\whatsapp.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\whatsapp->send()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\whatsapp))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:20 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:16 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:16 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:16 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:16 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:17 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:35 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:35 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:36 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:11:36 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:12:02 --> Attempt to read property "pesan" on null
+in APPPATH\Controllers\Customer.php on line 77.
+ 1 APPPATH\Controllers\Customer.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pesan" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Customer.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->storependaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:15:46 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:15:46 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:15:46 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:15:46 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:20:36 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:20:36 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:20:37 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 06:20:37 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-18 08:41:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\system\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\system\BaseModel.php(557): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\xampp\htdocs\Webinar\app\Controllers\Admin.php(65): CodeIgniter\BaseModel->find()
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Admin->actlogin()
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\system\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\system\BaseModel.php(557): CodeIgniter\Model->doFind(false, NULL)
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Admin.php(65): CodeIgniter\BaseModel->find()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Admin->actlogin()
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-18 08:41:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 SYSTEMPATH\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\Admin.php(65): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->actlogin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 08:43:17 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 08:43:17 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 08:43:17 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 08:43:18 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 08:43:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:13:00 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin.php on line 299.
+ 1 APPPATH\Controllers\Admin.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Admin.php', 299)
+ 2 APPPATH\Controllers\Admin.php(299): require()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:25:33 --> syntax error, unexpected string content ");", expecting ")"
+in APPPATH\Controllers\Admin.php on line 306.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:25:51 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:26:27 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:26:29 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:26:30 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:26:47 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:27:32 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:28:08 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:28:13 --> fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:28:54 --> fopen(/public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('/public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('/public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('/public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:29:23 --> fopen(../public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(../public/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('../public/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('../public/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('../public/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:29:35 --> fopen(assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:29:44 --> fopen(/assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('/assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('/assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('/assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:29:57 --> fopen(../assets/export/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(../assets/export/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('../assets/export/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('../assets/export/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('../assets/export/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:30:46 --> fopen(public/hello world.xlsx): Failed to open stream: No such file or directory
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(public/hello world.xlsx): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\Webinar\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Writer\\BaseWriter.php', 128)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('public/hello world.xlsx', 'wb')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('public/hello world.xlsx')
+ 4 APPPATH\Controllers\Admin.php(305): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('public/hello world.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->export()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:44:25 --> Too few arguments to function App\Controllers\Admin::exportpeserta(), 0 passed in D:\xampp\htdocs\Webinar\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Admin.php on line 297.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:44:26 --> Too few arguments to function App\Controllers\Admin::exportpeserta(), 0 passed in D:\xampp\htdocs\Webinar\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Admin.php on line 297.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:45:37 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setActiveSheetIndex()
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:46:40 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setActiveSheetIndex()
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:47:39 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setActiveSheetIndex()
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:49:07 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setActiveSheetIndex()
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:52:16 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setActiveSheetIndex()
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 09:52:17 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setActiveSheetIndex()
+in APPPATH\Controllers\Admin.php on line 304.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->exportpeserta()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+<<<<<<< HEAD
+=======
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:00 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:38:12 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:19 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:39:20 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+>>>>>>> 8ddef321168d89ac30a4e57273e3efaee91a361d
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:55:47 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:55:47 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:55:47 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:55:47 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('<')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-18 04:55:48 --> Undefined array key 0
+in APPPATH\Views\deskripsi.php on line 3.
+ 1 APPPATH\Views\deskripsi.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\deskripsi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('deskripsi', [], true)
+ 5 APPPATH\Controllers\Customer.php(32): view('deskripsi')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Customer->detailwebinar('img', 'lampung cerdas.webp')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+>>>>>>> 8f7e9863b5572621dd82bc33feb40d0b5b0b2fec

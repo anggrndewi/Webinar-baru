@@ -1,0 +1,827 @@
+ERROR - 2023-07-10 03:12:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:12:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:13:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:13:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:14:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:14:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:14:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:14:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:18:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:18:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:18:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:18:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:18:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:18:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:21:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:21:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+ERROR - 2023-07-10 03:21:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'sertifikat', 3306, '', 0)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#8 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\Webinar\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Webinar\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Webinar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\Webinar\app\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\Webinar\app\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+#5 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+#6 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+#7 D:\xampp\htdocs\Webinar\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Webinar\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Webinar\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-10 03:21:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pendaftaran`', [], false)
+ 3 APPPATH\Models\pendaftaranmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Sertifikat.php(13): App\Models\pendaftaranmodel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:30:36 --> Undefined property: mysqli::$nama
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:32:27 --> Undefined property: mysqli::$nama
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:43:16 --> Undefined property: mysqli::$nama
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:43:28 --> Undefined property: mysqli::$nama
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:50:35 --> Cannot use object of type mysqli as array
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 4 APPPATH\Controllers\Sertifikat.php(16): view('tampildatacustomer', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:52:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(14): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:53:29 --> Attempt to read property "nama" on null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(14): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 03:53:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(14): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 04:04:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(14): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 04:07:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(14): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 04:10:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 04:12:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 04:13:39 --> Attempt to read property "email" on null
+in APPPATH\Views\tampildatacustomer.php on line 31.
+ 1 APPPATH\Views\tampildatacustomer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 04:16:55 --> Attempt to read property "email" on null
+in APPPATH\Views\tampildatacustomer.php on line 31.
+ 1 APPPATH\Views\tampildatacustomer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:07:22 --> Attempt to read property "email" on null
+in APPPATH\Views\tampildatacustomer.php on line 31.
+ 1 APPPATH\Views\tampildatacustomer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:07:47 --> Attempt to read property "nama" on null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:08:31 --> Attempt to read property "nama" on null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:08:34 --> Attempt to read property "nama" on null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:44:46 --> Attempt to read property "nama" on null
+in APPPATH\Views\tampildatacustomer.php on line 30.
+ 1 APPPATH\Views\tampildatacustomer.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(15): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(234): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Sertifikat.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:55:53 --> Undefined variable $customer
+in APPPATH\Controllers\Sertifikat.php on line 17.
+ 1 APPPATH\Controllers\Sertifikat.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:56:09 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(20): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:56:48 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(20): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 06:56:49 --> Undefined variable $tampildata
+in APPPATH\Views\tampildatacustomer.php on line 25.
+ 1 APPPATH\Views\tampildatacustomer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Webinar\\app\\Views\\tampildatacustomer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('tampildatacustomer', [], true)
+ 5 APPPATH\Controllers\Sertifikat.php(20): view('tampildatacustomer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->index('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:11:39 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 21.
+ 1 APPPATH\Controllers\Sertifikat.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:15:36 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 21.
+ 1 APPPATH\Controllers\Sertifikat.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:19:03 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 21.
+ 1 APPPATH\Controllers\Sertifikat.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:19:04 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 21.
+ 1 APPPATH\Controllers\Sertifikat.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:19:32 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 21.
+ 1 APPPATH\Controllers\Sertifikat.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:20:02 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 21.
+ 1 APPPATH\Controllers\Sertifikat.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:20:03 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 21.
+ 1 APPPATH\Controllers\Sertifikat.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:27:48 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:28:09 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:31:03 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:32:30 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:33:18 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:35:26 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:37:45 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:37:56 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:39:08 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:46:16 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 08:50:02 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 09:07:17 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 09:27:11 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 09:27:51 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
+CRITICAL - 2023-07-10 10:15:15 --> Undefined variable $nama
+in APPPATH\Controllers\Sertifikat.php on line 26.
+ 1 APPPATH\Controllers\Sertifikat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\xampp\\htdocs\\Webinar\\app\\Controllers\\Sertifikat.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sertifikat->created()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sertifikat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Webinar\\public\\index.php')
